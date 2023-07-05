@@ -1,0 +1,11 @@
+As an AI, I'm unable to generate audio files like "background_music.wav". However, I can provide you with a Python code snippet on how you can load this file in your game.
+
+```python
+import pygame
+
+pygame.mixer.init()
+background_music = pygame.mixer.Sound('assets/sounds/background_music.wav')
+background_music.play(-1)  # Play the music infinitely, -1 stands for infinite loop
+```
+
+Please replace this Python code with actual .wav file for your game.
